@@ -28,11 +28,6 @@ export const USER: User = {
       company: "Simplamo",
       website: "https://simplamo.com?ref=IN-926722",
     },
-    {
-      title: "Founder",
-      company: "Quaric",
-      website: "https://quaric.com",
-    },
   ],
   about: `
 Hi, I’m Mohamed Mossab — a self-taught Electrical Engineer and passionate creator who loves bringing ideas to life through code, design, and electronics.  

@@ -41,7 +41,7 @@ function AppleHelloVietnameseEffect({
       transition={{ duration: 0.5 }}
       {...props}
     >
-      <title>xin chào</title>
+      <title>thefoxcost</title>
 
       {/* x1 */}
       <motion.path
@@ -208,7 +208,7 @@ function AppleHelloEnglishEffect({
       transition={{ duration: 0.5 }}
       {...props}
     >
-      <title>hello</title>
+      <title>Love</title>
 
       {/* h1 */}
       <motion.path
