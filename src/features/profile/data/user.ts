@@ -7,7 +7,7 @@ export const USER: User = {
   username: "thefoxcost",
   gender: "male",
   pronouns: "he/him",
-  bio: "Did I ever tell you the definition of insanity?",
+  bio: "Dont Worry too much about life all things is Preapared God",
   flipSentences: [
     "Electrical Engineer",
     "Electronics Hobbyist",
@@ -20,13 +20,13 @@ export const USER: User = {
   address: "Médéa City, Algeria",
   phoneNumber: "KzIxMyA3OTggMjM5IDk1OQ", // E.164 format, base64 encoded
   email: "ZXh0cmFjdGlvbmdhbWVzQGdtYWlsLmNvbQ", // base64 encoded
-  website: "https://chanhdai.com",
+  website: "https://thefoxcost.vercel.app",
   jobTitle: "Electrical Engineer",
   jobs: [
     {
-      title: "Senior Frontend Developer & UI Design Lead",
-      company: "Simplamo",
-      website: "https://simplamo.com?ref=IN-926722",
+      title: "",
+      company: "None",
+      website: "",
     },
   ],
   about: `

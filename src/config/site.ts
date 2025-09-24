@@ -16,7 +16,7 @@ export const META_THEME_COLORS = {
 
 export const MAIN_NAV: NavItem[] = [
   {
-    title: "Daifolio",
+    title: "theFoxCost",
     href: "/",
   },
   {
@@ -30,7 +30,7 @@ export const MAIN_NAV: NavItem[] = [
 ];
 
 export const SOURCE_CODE_GITHUB_REPO = "ncdai/chanhdai.com";
-export const SOURCE_CODE_GITHUB_URL = "https://github.com/ncdai/chanhdai.com";
+export const SOURCE_CODE_GITHUB_URL = "https://github.com/theFoxCost";
 
 export const UTM_PARAMS = {
   utm_source: "chanhdai.com",

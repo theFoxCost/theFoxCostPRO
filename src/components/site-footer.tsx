@@ -17,11 +17,11 @@ export function SiteFooter() {
           Built by{" "}
           <a
             className="link"
-            href="https://x.com/iamncdai"
+            href="https://www.instagram.com/thefoxcost/"
             target="_blank"
             rel="noopener"
           >
-            ncdai
+            theFoxCost
           </a>
           . The source code is available on{" "}
           <a

@@ -53,7 +53,7 @@ type CommandLinkItem = {
 
 const MENU_LINKS: CommandLinkItem[] = [
   {
-    title: "thefoxcost",
+    title: "theFoxCost",
     href: "/",
     icon: ChanhDaiMark,
   },
@@ -238,7 +238,7 @@ export function CommandMenu({ posts }: { posts: Post[] }) {
           <CommandSeparator />
 
           <CommandLinkGroup
-            heading="Daifolio"
+            heading="theFoxCost"
             links={DAIFOLIO_LINKS}
             onLinkSelect={handleOpenLink}
           />
