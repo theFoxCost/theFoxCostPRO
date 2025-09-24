@@ -9,22 +9,22 @@ export const SOCIAL_LINKS: SocialLink[] = [
   },
   {
     icon: "https://upload.wikimedia.org/wikipedia/commons/a/ac/Instagram-Gradient-Logo-PNG.png",
-    title: "daily.dev",
+    title: "Instagram",
     description: "@thefoxcost",
-    href: "https://app.daily.dev/ncdai",
+    href: "https://www.instagram.com/thefoxcost/",
   },
   {
     icon: "https://upload.wikimedia.org/wikipedia/commons/b/b8/2021_Facebook_icon.svg",
     title: "Facebook",
     description: "theFox Cost",
-    href: "https://zalo.me/2353934240045322830",
+    href: "https://www.facebook.com/profile.php?id=61552299917151",
   },
 
   {
     icon: "https://upload.wikimedia.org/wikipedia/fr/4/4f/Discord_Logo_sans_texte.svg",
-    title: "YouTube",
+    title: "Discord",
     description: "@thefoxcost",
-    href: "https://www.youtube.com/@ncdai",
+    href: "https://discord.com/users/927204799596871710",
   },
   {
     icon: "https://assets.chanhdai.com/images/link-icons/liquid-glass/x.webp",

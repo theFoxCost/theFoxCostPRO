@@ -4,14 +4,14 @@ import React from "react";
 import { SimpleTooltip } from "@/components/ui/tooltip";
 import { cn } from "@/lib/utils";
 
-import { TECH_STACK } from "../data/tech-stack";
+import { LANGUAGES } from "../data/languages";
 import { Panel, PanelContent, PanelHeader, PanelTitle } from "./panel";
 
-export function TeckStack() {
+export function LanguagesSection() {
   return (
-    <Panel id="stack">
+    <Panel id="languages">
       <PanelHeader>
-        <PanelTitle>Stack</PanelTitle>
+        <PanelTitle>Languages</PanelTitle>
       </PanelHeader>
 
       <PanelContent
@@ -22,23 +22,24 @@ export function TeckStack() {
         )}
       >
         <ul className="flex flex-wrap gap-4 select-none">
-          {TECH_STACK.map((tech) => (
-            <li key={tech.key} className="flex">
-              <SimpleTooltip content={tech.title}>
+          {LANGUAGES.map((lang) => (
+            <li key={lang.key} className="flex">
+              <SimpleTooltip content={lang.title}>
                 <a
-                  href={tech.href}
+                  href={lang.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  aria-label={tech.title}
+                  aria-label={lang.title}
                 >
                   <Image
-                    src={`/icons/tech-stack/${tech.key}.svg`}
-                    alt={`${tech.title} icon`}
-                    width={38}
-                    height={38}
+                    src={`/lang/${lang.key}.svg`}
+                    alt={`${lang.title} icon`}
+                    width={42}
+                    height={42}
                     unoptimized
                   />
-                  <span className="sr-only">{tech.title}</span>
+
+                  <span className="sr-only">{lang.title}</span>
                 </a>
               </SimpleTooltip>
             </li>

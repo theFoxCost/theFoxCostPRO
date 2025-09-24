@@ -18,7 +18,6 @@ export type Certification = {
   /**
    * Certificate or credential identifier; leave empty if not applicable.
    */
-  credentialID: string;
   /**
    * Public verification URL or link to the certificate document. Used as the anchor href.
    */
