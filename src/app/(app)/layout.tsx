@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/next";
 import dynamic from "next/dynamic";
 
 import { SiteFooter } from "@/components/site-footer";
@@ -11,7 +12,10 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
   return (
     <>
       <SiteHeader />
-      <main className="max-w-screen overflow-x-hidden px-2">{children}</main>
+      <main className="max-w-screen overflow-x-hidden px-2">
+        {children}
+        <Analytics />
+      </main>
       <SiteFooter />
       <ScrollTop />
     </>
