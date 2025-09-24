@@ -1,23 +1,28 @@
 import type { User } from "@/features/profile/types/user";
 
 export const USER: User = {
-  firstName: "Chánh Đại",
-  lastName: "Nguyễn",
-  displayName: "Chánh Đại",
-  username: "ncdai",
+  firstName: "Mohamed Mossab",
+  lastName: "Sebkhi",
+  displayName: "Mohamed Mossab",
+  username: "thefoxcost",
   gender: "male",
   pronouns: "he/him",
   bio: "Creating with code. Small details matter.",
   flipSentences: [
     "Creating with code. Small details matter.",
-    "Design Engineer",
-    "Open Source Contributor",
+    "Electrical Engineer",
+    "Electronics Hobbyist",
+    "IoT & Networking Hobbyist",
+    "Cybersecurity Hobbyist",
+    "Hobbyist CAD Designer",
+    "Self Taught",
+    "Full Stack Developer",
   ],
-  address: "Ho Chi Minh City, Viet Nam",
-  phoneNumber: "Kzg0Nzc3ODg4MTQ4", // E.164 format, base64 encoded (https://t.io.vn/base64-string-converter)
-  email: "ZGFpQGNoYW5oZGFpLmNvbQ==", // base64 encoded
+  address: "Médéa City, Algeria",
+  phoneNumber: "KzIxMyA3OTggMjM5IDk1OQ", // E.164 format, base64 encoded
+  email: "ZXh0cmFjdGlvbmdhbWVzQGdtYWlsLmNvbQ", // base64 encoded
   website: "https://chanhdai.com",
-  jobTitle: "Design Engineer",
+  jobTitle: "Electrical Engineer",
   jobs: [
     {
       title: "Senior Frontend Developer & UI Design Lead",
@@ -31,17 +36,18 @@ export const USER: User = {
     },
   ],
   about: `
-Hello, World! I am Chánh Đại — a Design Engineer passionate about creating high-performance, user-centric software solutions with intuitive and engaging designs.
+Hi, I’m Mohamed Mossab — a self-taught Electrical Engineer and passionate creator who loves bringing ideas to life through code, design, and electronics.  
 
-With 5+ years of experience, I specialize in building high-quality web and mobile applications using Next.js, React, TypeScript, and modern front-end technologies. Beyond work, I love exploring new technologies and turning ideas into reality through personal projects.
+I enjoy working on projects that mix creativity with technology, whether it’s building intuitive web apps, experimenting with IoT & networking, or designing in CAD. Over the years, I’ve taught myself everything from cybersecurity to full-stack development — always learning, always building.  
 
-One of my key projects, [ZaDark](https://zadark.com), launched in 2022, enhances the Zalo experience on PC and Web, surpassing 80k+ downloads on [SourceForge](https://sourceforge.net/projects/zadark) and reaching 20k+ active users on the [Chrome Web Store](https://chromewebstore.google.com/detail/llfhpkkeljlgnjgkholeppfnepmjppob) (as of Sep 2025).
+I believe small details make the biggest difference, and that’s what drives me to keep improving my craft. When I’m not coding, I like tinkering with electronics, exploring new tools, and working on personal projects that challenge me to think differently.  
 
-I'm also the creator of [React Wheel Picker](https://react-wheel-picker.chanhdai.com) — iOS-like wheel picker for React with smooth inertia scrolling and infinite loop support. It has earned 4k+ weekly downloads on [npm](https://www.npmjs.com/package/@ncdai/react-wheel-picker) and was selected for [▲Vercel OSS Program](https://vercel.com/blog/summer-2025-oss-program#react-wheel-picker) summer 2025 cohort.
+Besides tech, I also enjoy learning and connecting with people in different languages. I speak **Arabic, French, English, Chinese, and German**, which helps me discover new cultures and perspectives.  
 
-Let's connect and collaborate!
-  `,
-  avatar: "https://assets.chanhdai.com/images/chanhdai-avatar-ghibli.webp",
+Let’s connect and create something awesome together!
+`,
+  avatar:
+    "https://github.com/theFoxCost/ImagePRO/commit/97d2200d6dbd130ce4de9e8410bee7bd2eb53e9b",
   ogImage:
     "https://assets.chanhdai.com/images/screenshot-og-image-light.png?t=1755355653",
   namePronunciationUrl: "https://assets.chanhdai.com/audio/chanhdai.mp3",
@@ -57,5 +63,5 @@ Let's connect and collaborate!
     "nguyễn chánh đại",
     "chánh đại",
   ],
-  dateCreated: "2023-10-20", // YYYY-MM-DD
+  dateCreated: "2025-09-23",
 };

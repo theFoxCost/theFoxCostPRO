@@ -22,50 +22,27 @@ export function TeckStack() {
         )}
       >
         <ul className="flex flex-wrap gap-4 select-none">
-          {TECH_STACK.map((tech) => {
-            return (
-              <li key={tech.key} className="flex">
-                <SimpleTooltip content={tech.title}>
-                  <a
-                    href={tech.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label={tech.title}
-                  >
-                    {tech.theme ? (
-                      <>
-                        <Image
-                          src={`https://assets.chanhdai.com/images/tech-stack-icons/${tech.key}-light.svg`}
-                          alt={`${tech.title} light icon`}
-                          width={32}
-                          height={32}
-                          className="hidden [html.light_&]:block"
-                          unoptimized
-                        />
-                        <Image
-                          src={`https://assets.chanhdai.com/images/tech-stack-icons/${tech.key}-dark.svg`}
-                          alt={`${tech.title} dark icon`}
-                          width={32}
-                          height={32}
-                          className="hidden [html.dark_&]:block"
-                          unoptimized
-                        />
-                      </>
-                    ) : (
-                      <Image
-                        src={`https://assets.chanhdai.com/images/tech-stack-icons/${tech.key}.svg`}
-                        alt={`${tech.title} icon`}
-                        width={32}
-                        height={32}
-                        unoptimized
-                      />
-                    )}
-                    <span className="sr-only">{tech.title}</span>
-                  </a>
-                </SimpleTooltip>
-              </li>
-            );
-          })}
+          {TECH_STACK.map((tech) => (
+            <li key={tech.key} className="flex">
+              <SimpleTooltip content={tech.title}>
+                <a
+                  href={tech.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={tech.title}
+                >
+                  <Image
+                    src={`/icons/tech-stack/${tech.key}.svg`}
+                    alt={`${tech.title} icon`}
+                    width={32}
+                    height={32}
+                    unoptimized
+                  />
+                  <span className="sr-only">{tech.title}</span>
+                </a>
+              </SimpleTooltip>
+            </li>
+          ))}
         </ul>
       </PanelContent>
     </Panel>
