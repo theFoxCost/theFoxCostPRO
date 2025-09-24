@@ -41,7 +41,7 @@ export function ProfileHeader() {
             &nbsp;
             <VerifiedIcon
               className="h-[0.6em] w-[0.6em] translate-y-px text-blue-500 select-none"
-              title="Verified"
+              aria-label="Verified"
             />
             {USER.namePronunciationUrl && (
               <>
