@@ -3,6 +3,7 @@ import { RssIcon } from "lucide-react";
 import { SITE_INFO, SOURCE_CODE_GITHUB_URL } from "@/config/site";
 import { cn } from "@/lib/utils";
 
+// Dass ist gut
 import { Icons } from "./icons";
 
 export function SiteFooter() {
