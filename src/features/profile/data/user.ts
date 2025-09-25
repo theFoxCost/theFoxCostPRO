@@ -42,8 +42,7 @@ Let’s connect and create something awesome together!
 `,
   avatar:
     "https://github.com/theFoxCost/ImagePRO/commit/97d2200d6dbd130ce4de9e8410bee7bd2eb53e9b",
-  ogImage:
-    "https://assets.chanhdai.com/images/screenshot-og-image-light.png?t=1755355653",
+  ogImage: "https://thefoxcost.vercel.app/",
   namePronunciationUrl: "https://assets.chanhdai.com/audio/chanhdai.mp3",
   keywords: [
     "thefoxcost",
