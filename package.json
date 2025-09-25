@@ -1,21 +1,14 @@
 {
-  "name": "chanhdai.com",
+  "name": "thefoxcost",
   "version": "0.1.0",
-  "description": "A minimal portfolio, component registry, and blog.",
-  "homepage": "https://chanhdai.com",
+  "description": "Personal Skills Showcase",
+  "homepage": "https://thefoxcost.vercel.app",
   "license": "MIT",
   "author": {
-    "name": "Nguyen Chanh Dai",
-    "email": "dai@chanhdai.com",
-    "url": "https://github.com/ncdai"
+    "name": "Sebkhi Mohamed Mossab",
+    "email": "extractiongames@gmail.com",
+    "url": "https://github.com/thefoxcost"
   },
-  "contributors": [
-    {
-      "name": "Nguyen Chanh Dai",
-      "email": "dai@chanhdai.com",
-      "url": "https://github.com/ncdai"
-    }
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ncdai/chanhdai.com.git"
