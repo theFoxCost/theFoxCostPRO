@@ -1,11 +1,10 @@
-import { RssIcon } from "lucide-react";
-
+import { SimpleTooltip } from "@/components/ui/tooltip";
 import { SITE_INFO, SOURCE_CODE_GITHUB_URL } from "@/config/site";
 import { cn } from "@/lib/utils";
 
-// Dass ist gut
 import { Icons } from "./icons";
 
+// dass is gut
 export function SiteFooter() {
   return (
     <footer className="max-w-screen overflow-x-hidden px-2">
@@ -13,7 +12,6 @@ export function SiteFooter() {
         <p className="mb-1 px-4 text-center font-mono text-sm text-balance text-muted-foreground">
           Inspired by tailwindcss.com & ui.shadcn.com
         </p>
-
         <p className="mb-4 px-4 text-center font-mono text-sm text-balance text-muted-foreground">
           Built by{" "}
           <a
@@ -35,7 +33,6 @@ export function SiteFooter() {
           </a>
           .
         </p>
-
         <div
           className={cn(
             "screen-line-before screen-line-after flex w-full before:z-1 after:z-1",
@@ -51,21 +48,29 @@ export function SiteFooter() {
             >
               llms.txt
             </a>
-
             <Separator />
-
-            <a
-              className="flex items-center text-muted-foreground transition-colors hover:text-foreground"
-              href={`${SITE_INFO.url}/rss`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <RssIcon className="size-4" />
-              <span className="sr-only">RSS</span>
-            </a>
-
+            <SimpleTooltip content="Free Palestine">
+              <a
+                className="flex items-center text-muted-foreground transition-colors hover:text-foreground"
+                href="https://en.wikipedia.org/wiki/Free_Palestine_Movement"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Free Palestine"
+              >
+                <svg
+                  className="size-4"
+                  viewBox="0 0 6 3"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect fill="#009639" width="6" height="3" />
+                  <rect fill="#FFF" width="6" height="2" />
+                  <rect fill="#000" width="6" height="1" />
+                  <path fill="#ED2E38" d="M0,0l2,1.5L0,3Z" />
+                </svg>
+                <span className="sr-only">Palestine Flag</span>
+              </a>
+            </SimpleTooltip>
             <Separator />
-
             <a
               className="flex text-muted-foreground transition-colors hover:text-foreground"
               href={
