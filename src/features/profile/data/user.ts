@@ -1,9 +1,9 @@
 import type { User } from "@/features/profile/types/user";
 
 export const USER: User = {
-  firstName: "Mohamed Mossab",
+  firstName: "Moh Mossab",
   lastName: "Sebkhi",
-  displayName: "Mohamed Mossab",
+  displayName: "Moh Mossab",
   username: "thefoxcost",
   gender: "male",
   pronouns: "he/him",
