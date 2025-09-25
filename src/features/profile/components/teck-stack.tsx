@@ -34,8 +34,8 @@ export function TeckStack() {
                   <Image
                     src={`/icons/tech-stack/${tech.key}.svg`}
                     alt={`${tech.title} icon`}
-                    width={38}
-                    height={38}
+                    width={35}
+                    height={35}
                     unoptimized
                   />
                   <span className="sr-only">{tech.title}</span>
