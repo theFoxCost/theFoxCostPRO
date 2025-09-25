@@ -103,12 +103,6 @@ export const TECH_STACK: TechStack[] = [
     categories: ["Design", "Tools"],
   },
   {
-    key: "obsidian",
-    title: "Obsidian",
-    href: "https://obsidian.md/",
-    categories: ["Productivity", "Knowledge Base"],
-  },
-  {
     key: "Wireshark_icon",
     title: "Wireshark",
     href: "https://www.wireshark.org/",
@@ -141,12 +135,6 @@ export const TECH_STACK: TechStack[] = [
     categories: ["Web Server"],
   },
   {
-    key: "Vercel",
-    title: "Vercel",
-    href: "https://vercel.com/",
-    categories: ["Deployment"],
-  },
-  {
     key: "Debian",
     title: "Debian",
     href: "https://www.debian.org/",
@@ -171,11 +159,5 @@ export const TECH_STACK: TechStack[] = [
     title: "Linux",
     href: "https://www.linux.org/",
     categories: ["Operating System"],
-  },
-  {
-    key: "Markdown",
-    title: "Markdown",
-    href: "https://www.markdownguide.org/",
-    categories: ["Markup Language"],
   },
 ];
